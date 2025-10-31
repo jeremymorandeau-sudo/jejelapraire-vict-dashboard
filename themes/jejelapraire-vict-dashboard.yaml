@@ -1,0 +1,30 @@
+Jejelapraire - Victron (Paramétrable):
+  background-color: "#001223"
+  card-background-color: "rgba(0,0,0,0.35)"
+  primary-text-color: "#E6F2FF"
+  secondary-text-color: "#9AC6FF"
+
+  vic-primary: "#004579"
+  vic-accent: "#FF8C00"
+  vic-success: "#00D4FF"
+  vic-warning: "#FFD166"
+  vic-danger: "#FF5C5C"
+  vic-green: "#42FF89"
+  vic-yellow: "#FFD54F"
+  vic-gray: "#6C7A89"
+
+  --flow-pv-batt: var(--vic-success)
+  --flow-batt-home: var(--vic-green)
+  --flow-grid-home: var(--vic-warning)
+  --flow-pv-home: var(--vic-yellow)
+
+  --pv0: "#00B8FF"
+  --pv1: "#00E0FF"
+  --pv2: "#7AE2FF"
+  --pv-total: "#31C3FF"
+
+  --gauge-bg: "rgba(0,50,100,0.35)"
+
+  mushroom-card-primary-color: var(--vic-primary)
+  mushroom-entity-primary-color: var(--vic-primary)
+  mushroom-shape-avatar-background: var(--card-background-color)
