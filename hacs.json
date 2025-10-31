@@ -1,0 +1,7 @@
+{
+  "name": "Jejelapraire Victron Dashboard",
+  "render_readme": true,
+  "homeassistant": "2024.0.0",
+  "country": "FR",
+  "zip_release": false
+}
