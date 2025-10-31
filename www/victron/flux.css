@@ -1,0 +1,16 @@
+.flow {
+  display: inline-block;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.35);
+}
+.arrow {
+  display: inline-block;
+  margin: 0 6px;
+  animation: flowblink 1.2s linear infinite;
+}
+.arrow.off { opacity: .2; filter: grayscale(1); }
+@keyframes flowblink {
+  0% { opacity: .3; transform: translateX(0); }
+  50% { opacity: 1;   transform: translateX(1px); }
+  100%{ opacity: .3;  transform: translateX(0); }
+}
